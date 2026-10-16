@@ -7,7 +7,7 @@ This repository selects one of four candidate solutions per GSM8K question. The 
 | Official test accuracy | **83.30%** (389 / 467), from [`code/artifacts/test-score.json`](code/artifacts/test-score.json) |
 | Protocol | `dase7506-mp2-open-hard-verifier-v5` |
 | Report | [`report/report.pdf`](report/report.pdf) (10 pages) |
-| Code version | `<repo-url>` at commit `<commit-hash>` |
+| Code version | [`Bosco-lab/DASE7506_MP2`](https://github.com/Bosco-lab/DASE7506_MP2) at commit [`f2b2cc55b3117cdca7062ac238aae3470c28ae3d`](https://github.com/Bosco-lab/DASE7506_MP2/tree/f2b2cc55b3117cdca7062ac238aae3470c28ae3d) |
 | Checkpoint | [`code/artifacts/model_bundle/`](code/artifacts/model_bundle/) (14,081 B in total) |
 
 The task description and the official running instructions are in [`guide/GUIDE.md`](guide/GUIDE.md) and [`code/README.md`](code/README.md). Those files are unchanged from the original release.
