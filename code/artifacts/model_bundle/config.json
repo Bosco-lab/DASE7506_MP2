@@ -1,0 +1,17 @@
+{
+  "features": [
+    "emb",
+    "text",
+    "verify"
+  ],
+  "loss": "listwise",
+  "C": 0.03,
+  "seed": 0,
+  "aggregate_T": 1.0,
+  "provenance": {
+    "ranker": "train_ranker.py --features emb,text,verify --loss listwise (runs/rank_etv_list)",
+    "aggregate": "fit_aggregate.py --checkpoint runs/rank_etv_list (runs/agg_etv_list)",
+    "train_cv_hard": 82.26111636707664,
+    "model_npz_sha256": "b5ddef691e285872f21983d2c52c047adb1f2f4543b55be12d5ec54283319818"
+  }
+}
