@@ -123,8 +123,7 @@ The retrained `runs/model_bundle/model.npz` is byte-identical to the submitted o
 | `ensemble_check.py` | Ensemble of rankers (a negative result) |
 | `train_mlp.py` | One-hidden-layer MLP (a negative result) |
 | `probe_headroom.py` | Nearest-neighbour prior and whitened-embedding probes (negative results) |
-| `select_by_agg_cv.py` | Selects `C` and `T` on the aggregated metric (report section on the selection metric) |
-| `make_v2.py` | Builds the alternative checkpoint from that selection. Not adopted |
+| `select_by_agg_cv.py` | Selects `C` and `T` on the aggregated metric (report section on the selection metr |
 | `failures.py` | Lists validation errors of the frozen method by question type |
 | `test_breakdown.py` | Post-hoc test breakdown by question type and confidence. Run after freezing only |
 | `make_figures.py` | Draws the report figures. Needs the validation outputs from `dev_eval.py` in `runs/dev/` |
